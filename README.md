@@ -1,3 +1,10 @@
+# Ginatra/Rodauth Integration
+
+This branch shows how to integrate Ginatra with the Rodauth authentication framework.
+Ginatra by default does not support authentication, which means it can only be used
+in trusted environments.  This allows you to use Ginatra in untrusted environments,
+by forcing users to login via Rodauth.
+
 # Ginatra
 
 [![Build Status](https://img.shields.io/travis/NARKOZ/ginatra/master.svg)](https://travis-ci.org/NARKOZ/ginatra)
